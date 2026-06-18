@@ -1,0 +1,26 @@
+# Auto handle line endings for all files
+* text=auto
+
+# Ensure shell scripts use LF
+*.sh eol=lf
+*.bash eol=lf
+
+# Ensure Windows scripts use CRLF
+*.bat eol=crlf
+*.cmd eol=crlf
+*.ps1 eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+*.svg binary
+*.jar binary
+*.zip binary
